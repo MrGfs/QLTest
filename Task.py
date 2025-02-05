@@ -17,5 +17,14 @@ tasks = [
             'data/InfoList/2/FileName'
             ],  # JSON路径
         'is_json': True
+    },
+    {
+        'name':'BL锁',
+        'url': 'https://api.vip.miui.com/api/alpha/detail?type=BL_BLOCK',  # JSON接口
+        'selector': [
+            'entity/signupFrom',
+            'entity/description'
+            ],  # JSON路径
+        'is_json': True
     }
 ]
