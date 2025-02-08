@@ -22,8 +22,8 @@ tasks = [
         'name':'洛雪音乐',
         'url': 'https://kkgithub.com/lyswhut/lx-music-mobile/actions/workflows/beta-pack.yml',
         'selector': [
-            '//*[@id="partial-actions-workflow-runs"]/div/div/div[3]/div/div/span/relative-time/@datetime',
-            '//*[@id="partial-actions-workflow-runs"]/div/div/div[1]/a/span'
+            '//*[@id="partial-actions-workflow-runs"]/div[1]/div/div[3]/div/div/span/relative-time/@datetime',
+            '//*[@id="partial-actions-workflow-runs"]/div[1]/div/div[1]/a/span'
             ], 
         'is_json': False
     }
