@@ -19,12 +19,12 @@ tasks = [
         'is_json': True
     },
     {
-        'name':'BL锁',
-        'url': 'https://api.vip.miui.com/api/alpha/detail?type=BL_BLOCK',  # JSON接口
+        'name':'洛雪音乐',
+        'url': 'https://kkgithub.com/lyswhut/lx-music-mobile/actions/workflows/beta-pack.yml',
         'selector': [
-            'entity/signupFrom',
-            'entity/description'
-            ],  # JSON路径
-        'is_json': True
+            '//*[@id="partial-actions-workflow-runs"]/div/div/div[3]/div/div/span/relative-time/@datetime',
+            '//*[@id="partial-actions-workflow-runs"]/div/div/div[1]/a/span'
+            ], 
+        'is_json': False
     }
 ]
